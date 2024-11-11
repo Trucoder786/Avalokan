@@ -18,6 +18,7 @@ public class College_user {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name = "enrollement_id")
+
     private String enrollement_id;
     private String first_name;
     private String last_name;
